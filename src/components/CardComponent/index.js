@@ -13,21 +13,9 @@ const Image = () => {
   return (
     <View>
       <ImageSVG width={120} height={120} />
-      <View
-        style={{
-          position: 'absolute',
-          flex: 1,
-          flexDirection: 'row',
-          backgroundColor: '#fbedb7',
-          bottom: 5.7,
-          paddingHorizontal: 11,
-          borderRadius: 24,
-          paddingVertical: 4,
-          alignSelf: 'center',
-          alignItems: 'center',
-        }}>
+      <View style={styles.review}>
         <StarSVG width={15} height={15} />
-        <Text style={{color: '#7a6229', marginLeft: 3}}>4.7</Text>
+        <Text style={styles.labelreview}>4.7</Text>
       </View>
     </View>
   );
@@ -35,27 +23,45 @@ const Image = () => {
 
 const HeartButton = () => {
   return (
-    <View style={{position: 'absolute', bottom: 6, right: 7, backgroundColor: '#00B074', padding: 7, borderRadius: 50}}>
+    <View
+      style={{
+        position: 'absolute',
+        bottom: 6,
+        right: 10,
+        backgroundColor: '#00B074',
+        padding: 7,
+        borderRadius: 50,
+      }}>
       <HeartSVG width={16} height={16} />
     </View>
   );
 };
 
+const ListIcons = ({rooms, bathrooms, size}) => {
+  const icons = [
+    <BedSVG width={24} height={24} />,
+    <Text style={styles.text1}>{rooms}</Text>,
+    <BathroomSVG width={24} height={24} />,
+    <Text style={styles.text1}>{bathrooms}</Text>,
+    <SizeSVG width={24} height={24} />,
+    <Text style={styles.text2}>{size} ft</Text>,
+  ];
+
+  return (
+    <View style={styles.listiconcontainer}>{icons.map(item => item)}</View>
+  );
+};
+
 const Info = () => {
   return (
-    <View>
-      <Text>The Willows</Text>
-      <View style={{flex: 1, flexDirection: 'row'}}>
-        <LocationSVG width={20} height={20} />
-        <Text>3517 W. Gray St. Utica</Text>
+    <View style={styles.infocontainer}>
+      <Text style={styles.title}>The Willows</Text>
+      <View style={styles.adresscontainer}>
+        <LocationSVG width={19} height={19} />
+        <Text style={styles.marginadress}>3517 W. Gray St. Utica</Text>
       </View>
-      <View style={{flex: 1, flexDirection: 'row'}}>
-        <BedSVG width={24} height={24} />
-        <BathroomSVG width={24} height={24} />
-        <SizeSVG width={24} height={24} />
-      </View>
-      <Text>$ 440/m</Text>
-      <HeartButton />
+      <ListIcons rooms={3} bathrooms={2} size={230} />
+      <Text style={styles.cost}>$ 440/m</Text>
     </View>
   );
 };
@@ -63,16 +69,11 @@ const Info = () => {
 export default function Card({}) {
   return (
     <View style={styles.container}>
-      <View
-        style={{
-          flex: 1,
-          flexDirection: 'row',
-          alignItems: 'center',
-          paddingHorizontal: 10,
-        }}>
+      <View style={styles.direction}>
         <Image />
         <Info />
       </View>
+      <HeartButton />
     </View>
   );
 }
