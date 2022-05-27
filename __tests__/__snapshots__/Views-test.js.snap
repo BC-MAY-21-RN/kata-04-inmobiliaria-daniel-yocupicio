@@ -1,0 +1,997 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Views test Home view snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#f5fdff",
+            "borderRadius": 20.05,
+            "height": 140,
+            "marginTop": 15,
+            "width": 710,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <View>
+            <
+              height={120}
+              width={120}
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "#fbedb7",
+                  "borderRadius": 24,
+                  "bottom": 5.7,
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "paddingHorizontal": 11,
+                  "paddingVertical": 4,
+                  "position": "absolute",
+                }
+              }
+            >
+              <
+                height={15}
+                width={15}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#7a6229",
+                    "marginLeft": 3,
+                  }
+                }
+              >
+                4.2
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "height": 120,
+                "marginLeft": 6,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#151525",
+                  "fontSize": 19,
+                }
+              }
+            >
+              Panas frescos
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": 21,
+                }
+              }
+            >
+              <
+                height={19}
+                width={19}
+              />
+              <Text
+                style={
+                  Object {
+                    "fontSize": 13,
+                    "marginLeft": 5,
+                    "maxWidth": 130,
+                  }
+                }
+              >
+                C. Laguna de María s/n, Solidaridad
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                    "marginRight": 6,
+                  }
+                }
+              >
+                10
+              </Text>
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                    "marginRight": 6,
+                  }
+                }
+              >
+                10
+              </Text>
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                  }
+                }
+              >
+                1130
+                 ft
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                }
+              }
+            >
+              $ 
+              0
+              /m
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#00B074",
+              "borderRadius": 50,
+              "bottom": 6,
+              "padding": 7,
+              "position": "absolute",
+              "right": 10,
+            }
+          }
+        >
+          <
+            height={16}
+            width={16}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#f5fdff",
+            "borderRadius": 20.05,
+            "height": 140,
+            "marginTop": 15,
+            "width": 710,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <View>
+            <
+              height={120}
+              width={120}
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "#fbedb7",
+                  "borderRadius": 24,
+                  "bottom": 5.7,
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "paddingHorizontal": 11,
+                  "paddingVertical": 4,
+                  "position": "absolute",
+                }
+              }
+            >
+              <
+                height={15}
+                width={15}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#7a6229",
+                    "marginLeft": 3,
+                  }
+                }
+              >
+                4.7
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "height": 120,
+                "marginLeft": 6,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#151525",
+                  "fontSize": 19,
+                }
+              }
+            >
+              The Willows
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": 21,
+                }
+              }
+            >
+              <
+                height={19}
+                width={19}
+              />
+              <Text
+                style={
+                  Object {
+                    "fontSize": 13,
+                    "marginLeft": 5,
+                    "maxWidth": 130,
+                  }
+                }
+              >
+                3517 W. Gray St. Utica
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                    "marginRight": 6,
+                  }
+                }
+              >
+                3
+              </Text>
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                    "marginRight": 6,
+                  }
+                }
+              >
+                2
+              </Text>
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                  }
+                }
+              >
+                230
+                 ft
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                }
+              }
+            >
+              $ 
+              440
+              /m
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#00B074",
+              "borderRadius": 50,
+              "bottom": 6,
+              "padding": 7,
+              "position": "absolute",
+              "right": 10,
+            }
+          }
+        >
+          <
+            height={16}
+            width={16}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#f5fdff",
+            "borderRadius": 20.05,
+            "height": 140,
+            "marginTop": 15,
+            "width": 710,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <View>
+            <
+              height={120}
+              width={120}
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "#fbedb7",
+                  "borderRadius": 24,
+                  "bottom": 5.7,
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "paddingHorizontal": 11,
+                  "paddingVertical": 4,
+                  "position": "absolute",
+                }
+              }
+            >
+              <
+                height={15}
+                width={15}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#7a6229",
+                    "marginLeft": 3,
+                  }
+                }
+              >
+                4.2
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "height": 120,
+                "marginLeft": 6,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#151525",
+                  "fontSize": 19,
+                }
+              }
+            >
+              Panas frescos
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": 21,
+                }
+              }
+            >
+              <
+                height={19}
+                width={19}
+              />
+              <Text
+                style={
+                  Object {
+                    "fontSize": 13,
+                    "marginLeft": 5,
+                    "maxWidth": 130,
+                  }
+                }
+              >
+                C. Laguna de María s/n, Solidaridad
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                    "marginRight": 6,
+                  }
+                }
+              >
+                10
+              </Text>
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                    "marginRight": 6,
+                  }
+                }
+              >
+                10
+              </Text>
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                  }
+                }
+              >
+                1130
+                 ft
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                }
+              }
+            >
+              $ 
+              0
+              /m
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#00B074",
+              "borderRadius": 50,
+              "bottom": 6,
+              "padding": 7,
+              "position": "absolute",
+              "right": 10,
+            }
+          }
+        >
+          <
+            height={16}
+            width={16}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#f5fdff",
+            "borderRadius": 20.05,
+            "height": 140,
+            "marginTop": 15,
+            "width": 710,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <View>
+            <
+              height={120}
+              width={120}
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "#fbedb7",
+                  "borderRadius": 24,
+                  "bottom": 5.7,
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "paddingHorizontal": 11,
+                  "paddingVertical": 4,
+                  "position": "absolute",
+                }
+              }
+            >
+              <
+                height={15}
+                width={15}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#7a6229",
+                    "marginLeft": 3,
+                  }
+                }
+              >
+                5
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "height": 120,
+                "marginLeft": 6,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#151525",
+                  "fontSize": 19,
+                }
+              }
+            >
+              very far away
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": 21,
+                }
+              }
+            >
+              <
+                height={19}
+                width={19}
+              />
+              <Text
+                style={
+                  Object {
+                    "fontSize": 13,
+                    "marginLeft": 5,
+                    "maxWidth": 130,
+                  }
+                }
+              >
+                very far away
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                    "marginRight": 6,
+                  }
+                }
+              >
+                100
+              </Text>
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                    "marginRight": 6,
+                  }
+                }
+              >
+                20
+              </Text>
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                  }
+                }
+              >
+                9230
+                 ft
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                }
+              }
+            >
+              $ 
+              2000
+              /m
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#00B074",
+              "borderRadius": 50,
+              "bottom": 6,
+              "padding": 7,
+              "position": "absolute",
+              "right": 10,
+            }
+          }
+        >
+          <
+            height={16}
+            width={16}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#f5fdff",
+            "borderRadius": 20.05,
+            "height": 140,
+            "marginBottom": 15,
+            "marginTop": 15,
+            "width": 710,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "paddingHorizontal": 10,
+            }
+          }
+        >
+          <View>
+            <
+              height={120}
+              width={120}
+            />
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "#fbedb7",
+                  "borderRadius": 24,
+                  "bottom": 5.7,
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "paddingHorizontal": 11,
+                  "paddingVertical": 4,
+                  "position": "absolute",
+                }
+              }
+            >
+              <
+                height={15}
+                width={15}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#7a6229",
+                    "marginLeft": 3,
+                  }
+                }
+              >
+                3
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "height": 120,
+                "marginLeft": 6,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#151525",
+                  "fontSize": 19,
+                }
+              }
+            >
+              The Kiotrack
+            </Text>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "height": 21,
+                }
+              }
+            >
+              <
+                height={19}
+                width={19}
+              />
+              <Text
+                style={
+                  Object {
+                    "fontSize": 13,
+                    "marginLeft": 5,
+                    "maxWidth": 130,
+                  }
+                }
+              >
+                Fatima
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                    "marginRight": 6,
+                  }
+                }
+              >
+                7
+              </Text>
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                    "marginRight": 6,
+                  }
+                }
+              >
+                4
+              </Text>
+              <
+                height={24}
+                width={24}
+              />
+              <Text
+                style={
+                  Object {
+                    "color": "#151525",
+                    "fontSize": 14,
+                    "fontWeight": "bold",
+                    "marginLeft": 4,
+                  }
+                }
+              >
+                2230
+                 ft
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                }
+              }
+            >
+              $ 
+              1540
+              /m
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#00B074",
+              "borderRadius": 50,
+              "bottom": 6,
+              "padding": 7,
+              "position": "absolute",
+              "right": 10,
+            }
+          }
+        >
+          <
+            height={16}
+            width={16}
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

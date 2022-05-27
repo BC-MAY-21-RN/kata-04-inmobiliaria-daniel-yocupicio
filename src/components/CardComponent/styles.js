@@ -52,6 +52,14 @@ const styles = StyleSheet.create({
   },
   labelreview: {color: '#7a6229', marginLeft: 3},
   bottom: {marginBottom: 15},
+  like: {
+    position: 'absolute',
+    bottom: 6,
+    right: 10,
+    backgroundColor: '#00B074',
+    padding: 7,
+    borderRadius: 50,
+  },
 });
 
 export default styles;

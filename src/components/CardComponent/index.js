@@ -23,15 +23,7 @@ const Image = ({evaluation}) => {
 
 const HeartButton = () => {
   return (
-    <View
-      style={{
-        position: 'absolute',
-        bottom: 6,
-        right: 10,
-        backgroundColor: '#00B074',
-        padding: 7,
-        borderRadius: 50,
-      }}>
+    <View style={styles.like}>
       <HeartSVG width={16} height={16} />
     </View>
   );
@@ -39,12 +31,18 @@ const HeartButton = () => {
 
 const ListIcons = ({rooms, bathrooms, size}) => {
   const icons = [
-    <BedSVG width={24} height={24} />,
-    <Text style={styles.text1}>{rooms}</Text>,
-    <BathroomSVG width={24} height={24} />,
-    <Text style={styles.text1}>{bathrooms}</Text>,
-    <SizeSVG width={24} height={24} />,
-    <Text style={styles.text2}>{size} ft</Text>,
+    <BedSVG key={1} width={24} height={24} />,
+    <Text key={2} style={styles.text1}>
+      {rooms}
+    </Text>,
+    <BathroomSVG key={3} width={24} height={24} />,
+    <Text key={4} style={styles.text1}>
+      {bathrooms}
+    </Text>,
+    <SizeSVG key={5} width={24} height={24} />,
+    <Text key={6} style={styles.text2}>
+      {size} ft
+    </Text>,
   ];
 
   return (

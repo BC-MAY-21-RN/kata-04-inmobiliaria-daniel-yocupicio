@@ -6,7 +6,7 @@ export default function List({data}) {
   return (
     <ScrollView>
       {data.map((item, i) => (
-        <Card item={item} islast={i === data.length - 1} />
+        <Card key={i} item={item} islast={i === data.length - 1} />
       ))}
     </ScrollView>
   );
