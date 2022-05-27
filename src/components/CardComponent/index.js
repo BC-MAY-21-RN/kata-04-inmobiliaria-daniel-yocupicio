@@ -9,13 +9,13 @@ import LocationSVG from '../../assets/icons/Location.svg';
 import SizeSVG from '../../assets/icons/size.svg';
 import StarSVG from '../../assets/icons/star.svg';
 
-const Image = () => {
+const Image = ({evaluation}) => {
   return (
     <View>
       <ImageSVG width={120} height={120} />
       <View style={styles.review}>
         <StarSVG width={15} height={15} />
-        <Text style={styles.labelreview}>4.7</Text>
+        <Text style={styles.labelreview}>{evaluation}</Text>
       </View>
     </View>
   );
@@ -52,26 +52,30 @@ const ListIcons = ({rooms, bathrooms, size}) => {
   );
 };
 
-const Info = () => {
+const Info = ({data}) => {
   return (
     <View style={styles.infocontainer}>
-      <Text style={styles.title}>The Willows</Text>
+      <Text style={styles.title}>{data.name}</Text>
       <View style={styles.adresscontainer}>
         <LocationSVG width={19} height={19} />
-        <Text style={styles.marginadress}>3517 W. Gray St. Utica</Text>
+        <Text style={styles.marginadress}>{data.adress}</Text>
       </View>
-      <ListIcons rooms={3} bathrooms={2} size={230} />
-      <Text style={styles.cost}>$ 440/m</Text>
+      <ListIcons
+        rooms={data.rooms}
+        bathrooms={data.bathrooms}
+        size={data.size}
+      />
+      <Text style={styles.cost}>$ {data.cost}/m</Text>
     </View>
   );
 };
 
-export default function Card({}) {
+export default function Card({item, islast}) {
   return (
-    <View style={styles.container}>
+    <View style={{...styles.container, ...(islast ? styles.bottom : null)}}>
       <View style={styles.direction}>
-        <Image />
-        <Info />
+        <Image evaluation={item.evaluation} />
+        <Info data={item} />
       </View>
       <HeartButton />
     </View>

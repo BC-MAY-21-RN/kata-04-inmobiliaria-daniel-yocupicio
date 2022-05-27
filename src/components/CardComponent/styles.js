@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {fontSize: 19, color: '#151525'},
-  marginadress: {marginLeft: 5},
+  marginadress: {marginLeft: 5, fontSize: 13, maxWidth: 130},
   infocontainer: {height: 120, marginLeft: 6},
   listiconcontainer: {flex: 1, flexDirection: 'row', alignItems: 'center'},
   text1: {
@@ -51,6 +51,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   labelreview: {color: '#7a6229', marginLeft: 3},
+  bottom: {marginBottom: 15},
 });
 
 export default styles;
