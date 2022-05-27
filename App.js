@@ -7,12 +7,9 @@
  */
 
 import React from 'react';
-//import ListRealState from './src/models/ListRealStates';
 import Navigation from './src/routes';
 
 const App = () => {
-  //const list = new ListRealState();
-
   return <Navigation />;
 };
 
