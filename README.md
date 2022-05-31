@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/22cb23fe9c4ab09ae298/maintainability)](https://codeclimate.com/github/BC-MAY-21-RN/kata-04-inmobiliaria-daniel-yocupicio/maintainability)
+
 ![BrightCoders Logo](img/logo-bc.png)
 
 # Inmobiliaria
